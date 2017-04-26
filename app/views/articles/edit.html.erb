@@ -1,4 +1,4 @@
-<h1>Create an Article</h1>
+<h1> Edit existing article </h1>
 
 <% if @article.errors.any? %>
 <h3>The following errors prevented the article from being created:</h3>
@@ -14,6 +14,7 @@
     <%= f.label :title %></br></br>
     <%= f.text_field :title %>
   </p>
+  #rails should prefill the existing content in the form, since it is a model-backed form
   
   <p> 
     <%= f.label :description %></br></br>
