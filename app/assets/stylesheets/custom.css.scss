@@ -1,3 +1,85 @@
+$navbar-default-bg: white;
+
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body{
+    background: #83B8A8 !important;
+    padding-top: 70px;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #83B8A8;
+  letter-spacing: 1px;
+}
+
+#logo:hover {
+  color: #000;
+  // font-size:1.75em;
+}
+
+.center {
+  text-align:center;
+}
+
+.jumbotron {
+  // background-color: white;
+  background-image: asset-url('snow.jpg');
+  // background-size: cover;
+  // height: 550px
+  color: #83B8A8;
+  letter-spacing: 1px;
+}
+
+.btn-xlg {
+  font-size: 1em;
+  background-color: #83B8A8;
+  border: none;
+  box-shadow:
+    -.5px .5px 0 #c9c9c9,
+    -.5px .5px 0 #c9c9c9,
+    .5px -.5px 0 #c9c9c9,
+    .5px .5px 0 #c9c9c9;
+}
+
+.btn-xlg:hover {
+  background-color: #000;
+}
+
+.strokeme
+{
+    color: #83B8A8;
+    text-shadow:
+    -.5px .5px 0 #c9c9c9,
+    -.5px .5px 0 #c9c9c9,
+    .5px -.5px 0 #c9c9c9,
+    .5px .5px 0 #c9c9c9;  
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
