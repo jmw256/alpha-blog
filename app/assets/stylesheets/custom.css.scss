@@ -30,7 +30,7 @@ body{
   background-image: asset-url('snow.jpg');
   // background-size: cover;
   padding-top: 150px;
-  height: 650px;
+  height: 600px;
   color: #83B8A8;
   letter-spacing: 1px;
 }
@@ -78,6 +78,31 @@ footer small {
 footer ul {
   float: right;
   list-style: none;
+}
+
+.article-actions {
+  border-top: 1px solid #83B8A8;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.description2 {
+  border-top: 1px solid #83B8A8;
+  padding-top: 10px;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #83B8A8;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 footer ul li {
